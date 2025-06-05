@@ -3,7 +3,7 @@
 ```
 mkdir python
 ```
-- Membuat virtual environtmet
+- Membuat virtual environment
 ```
 python3 -m venv venv
 ```
@@ -12,12 +12,13 @@ atau
 python -m venv venv
 ```
 - Aktivasi folder virtual environment
+Di Linux/macOS
 ```
-source venv/bin/activate # Di Linux/macOS
+source venv/bin/activate
 ```
-atau
+Di Windows (PowerShell)
 ```
-.\venv\Scripts\activate # Di Windows (PowerShell)
+.\venv\Scripts\activate
 ```
 - Install pymysql
 ```
